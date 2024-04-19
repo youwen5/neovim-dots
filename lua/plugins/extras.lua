@@ -1,4 +1,5 @@
 -- stylua: ignore
+-- defines extra plugins that don't directly affect editing
 
 return {
   {

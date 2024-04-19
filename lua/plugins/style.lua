@@ -1,4 +1,5 @@
 -- stylua: ignore
+-- defines cosmetic and theme based configurations and plugins
 
 return {
   {
