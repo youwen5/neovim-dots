@@ -1,4 +1,3 @@
-# 💤 LazyVim
+# 💤 Neovim Dotfiles
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Built on top of [LazyVim](https://github.com/LazyVim/LazyVim). My personal Neovim configuration, with some theme changes and plugins I like.
