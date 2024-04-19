@@ -10,6 +10,14 @@ return {
         sidebars = "transparent",
         floats = "transparent",
       },
+      on_highlights = function(hl, colors)
+        hl.LineNr = {
+          fg = "#7a7a7a",
+        }
+        hl.CursorLineNr = {
+          fg = "white",
+        }
+      end,
     },
   },
   -- {
