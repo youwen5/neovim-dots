@@ -1,5 +1,10 @@
 return {
   {
+    "pmizio/typescript-tools.nvim",
+    dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+    opts = {},
+  },
+  {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
@@ -10,6 +15,11 @@ return {
           filetypes_include = {},
           -- to fully override the default_config, change the below
           -- filetypes = {}
+        },
+        tsserver = {
+          handlers = {
+            ["textDocument/publishDiagnostics"] = function(...) end,
+          },
         },
       },
       diagnostics = {

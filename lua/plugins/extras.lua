@@ -9,4 +9,5 @@ return {
       workspace_text = "The One True Text Editor",
     },
   },
+  { 'wakatime/vim-wakatime', lazy = false },
 }
