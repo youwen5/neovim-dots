@@ -6,11 +6,17 @@ The main goal of this setup is to reach somewhat feature parity with VSCode's In
 
 ## Installation
 
-Ensure you have the latest version of Neovim installed, and remove or backup your existing settings.
+Ensure you have the latest version of Neovim installed, and remove or backup your existing settings. Install `tree-sitter-cli` with either `cargo` or `npm`, and ensure `npm` and `tree-sitter-cli` are on your `PATH`.
 
 ```sh
 rm -rf ~/.config/nvim
 mv ~/.nvim ~/.nvim.bak
+
+# with npm (or pnpm, bun, yarn)
+npm install --global tree-sitter-cli
+
+# with cargo
+cargo install tree-sitter-cli
 ```
 
 Then, clone this repository into where Neovim is expecting configuration files (usually `~/.config/nvim`).
