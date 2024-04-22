@@ -21,6 +21,15 @@ return {
             ["textDocument/publishDiagnostics"] = function(...) end,
           },
         },
+        rust_analyzer = {
+          settings = {
+            ["rust-analyzer"] = {
+              checkOnSave = {
+                command = "clippy",
+              },
+            },
+          },
+        },
       },
       diagnostics = {
         underline = true,
