@@ -7,6 +7,7 @@ return {
     lazy=false,
     opts = {
       workspace_text = "The One True Text Editor",
+      editing_text = "Hacking %s",
     },
   },
   { 'wakatime/vim-wakatime', lazy = false },
