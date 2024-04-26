@@ -1,4 +1,5 @@
--- defines latex plugins, EXCEPT the lsp (defined in lsp.)
+-- defines latex plugins, which don't fall in to any of the other categories
+-- eg. besides the lsp (defined in lsp) and formatter
 
 return {
   {
