@@ -32,6 +32,7 @@ return {
       ["graphql"] = { "prettier" },
       ["handlebars"] = { "prettier" },
       ["toml"] = {"taplo"},
+      ["tex"] = {"latexindent"},
     },
   },
 }
