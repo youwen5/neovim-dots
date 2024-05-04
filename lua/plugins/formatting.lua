@@ -33,6 +33,9 @@ return {
       ["handlebars"] = { "prettier" },
       ["toml"] = {"taplo"},
       ["tex"] = {"latexindent"},
+      ["haskell"] = {"ormolu"},
+      ["nix"] = {"nixpkgs-fmt"},
+      ["lua"] = {"stylua"},
     },
   },
 }
