@@ -35,6 +35,9 @@ return {
         cssls = {
           filetypes = { "css", "scss", "less", "pcss" },
         },
+        clangd = {
+          cmd = { "clangd", "--offset-encoding=utf-16" },
+        },
       },
       diagnostics = {
         underline = true,
