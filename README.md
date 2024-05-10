@@ -4,6 +4,14 @@ My Neovim configuration files, built on top of
 [LazyVim](https://github.com/LazyVim/LazyVim). Makes Neovim an actual usable
 IDE.
 
+---
+
+Time wasted configuring Neovim:
+
+[![wakatime](https://wakatime.com/badge/user/018dc5b8-ba5a-4572-a38a-b526d1b28240/project/018efaa8-f823-4b6b-8e27-a30cc0ae4cfc.svg)](https://wakatime.com/badge/user/018dc5b8-ba5a-4572-a38a-b526d1b28240/project/018efaa8-f823-4b6b-8e27-a30cc0ae4cfc)
+
+---
+
 The main goal of this setup is to reach somewhat feature parity with VSCode's
 Intellisense features (in other words, to be _at least_ as productive as in
 VSCode). Since the majority of VS Code's "IntelliSense" features are really just
@@ -17,9 +25,9 @@ try to document as much as I can, anyways.
 
 ## Installation
 
-Ensure you have the latest version of Neovim installed, and remove or backup
-your existing settings. Install `tree-sitter-cli` with either `cargo` or `npm`,
-and ensure `npm` and `tree-sitter-cli` are on your `PATH`.
+Ensure you have the latest version (v0.10.x) of Neovim installed, and remove or
+backup your existing settings. Install `tree-sitter-cli` with either `cargo` or
+`npm`, and ensure `npm` and `tree-sitter-cli` are on your `PATH`.
 
 ```sh
 # remove it
