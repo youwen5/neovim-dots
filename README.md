@@ -25,9 +25,9 @@ try to document as much as I can, anyways.
 
 ## Installation
 
-Ensure you have the latest version of Neovim installed, and remove or backup
-your existing settings. Install `tree-sitter-cli` with either `cargo` or `npm`,
-and ensure `npm` and `tree-sitter-cli` are on your `PATH`.
+Ensure you have the latest version (v0.10.x) of Neovim installed, and remove or
+backup your existing settings. Install `tree-sitter-cli` with either `cargo` or
+`npm`, and ensure `npm` and `tree-sitter-cli` are on your `PATH`.
 
 ```sh
 # remove it
