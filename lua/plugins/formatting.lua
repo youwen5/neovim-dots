@@ -36,6 +36,7 @@ return {
         ["haskell"] = {"fourmolu"},
         ["nix"] = {"nixpkgs-fmt"},
         ["lua"] = {"stylua"},
+        ["typst"] = {"typstfmt"}
       },
     },
   }
