@@ -19,4 +19,11 @@ return {
       },
     },
   },
+  {
+    "folke/zen-mode.nvim",
+    config = function()
+      require("zen-mode").setup {}
+      vim.api.nvim_set_keymap('n', '<Space>wz', ':ZenMode<CR>', { noremap = true, silent = true })
+    end
+  }
 }
