@@ -134,6 +134,7 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "tinymist",
       },
     },
   },
